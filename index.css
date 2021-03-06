@@ -34,6 +34,16 @@ a {
       1px 1px 0 transparent;
   }
 
+  .murt{
+    display:none;
+  }
+  .title:hover .mart{
+    display: none;
+  }
+  .title:hover .murt{
+    display: block;
+  }
+  
 .titel{
     background-color:#242526;
     padding: 0px;
