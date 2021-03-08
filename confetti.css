@@ -1,0 +1,318 @@
+
+
+.hoverme i {
+    position: absolute;
+    display: block;
+    left: 1450px;
+    top: 520px;
+    width: 5px;
+    height: 10px;
+    background: red;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(1) {
+    transform: translate3d(-3px, 19px, 0) rotate(288deg);
+    background: rgba(0, 174, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(2) {
+    transform: translate3d(-54px, 42px, 0) rotate(199deg);
+    background: rgba(255, 234, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(3) {
+    transform: translate3d(-49px, 21px, 0) rotate(89deg);
+    background: rgba(34, 255, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(4) {
+    transform: translate3d(-74px, -55px, 0) rotate(277deg);
+    background: rgba(0, 255, 21, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(5) {
+    transform: translate3d(-19px, 60px, 0) rotate(37deg);
+    background: rgba(0, 255, 132, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(6) {
+    transform: translate3d(-49px, 72px, 0) rotate(317deg);
+    background: rgba(0, 255, 187, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(7) {
+    transform: translate3d(-33px, -58px, 0) rotate(203deg);
+    background: rgba(255, 0, 247, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(8) {
+    transform: translate3d(3px, 80px, 0) rotate(272deg);
+    background: rgba(166, 0, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(9) {
+    transform: translate3d(-82px, -58px, 0) rotate(238deg);
+    background: rgba(94, 0, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(10) {
+    transform: translate3d(40px, 87px, 0) rotate(339deg);
+    background: rgba(255, 34, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(11) {
+    transform: translate3d(-17px, 4px, 0) rotate(142deg);
+    background: rgba(0, 255, 234, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(12) {
+    transform: translate3d(-65px, 45px, 0) rotate(287deg);
+    background: rgba(255, 0, 221, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(13) {
+    transform: translate3d(46px, -48px, 0) rotate(73deg);
+    background: rgba(255, 0, 242, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(14) {
+    transform: translate3d(36px, -97px, 0) rotate(168deg);
+    background: rgba(255, 34, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(15) {
+    transform: translate3d(28px, 24px, 0) rotate(72deg);
+    background: rgba(0, 255, 89, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(16) {
+    transform: translate3d(-61px, 60px, 0) rotate(5deg);
+    background: rgba(217, 0, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(17) {
+    transform: translate3d(26px, 18px, 0) rotate(256deg);
+    background: rgba(255, 238, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(18) {
+    transform: translate3d(22px, -11px, 0) rotate(299deg);
+    background: rgba(255, 89, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(19) {
+    transform: translate3d(-11px, 25px, 0) rotate(5deg);
+    background: rgba(0, 85, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(20) {
+    transform: translate3d(-63px, -81px, 0) rotate(143deg);
+    background: rgba(247, 255, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(21) {
+    transform: translate3d(74px, -51px, 0) rotate(84deg);
+    background: rgba(255, 0, 200, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(22) {
+    transform: translate3d(-46px, 47px, 0) rotate(29deg);
+    background: rgba(255, 0, 102, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(23) {
+    transform: translate3d(17px, 43px, 0) rotate(294deg);
+    background: rgba(4, 0, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(24) {
+    transform: translate3d(-9px, -84px, 0) rotate(290deg);
+    background: rgba(0, 76, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(25) {
+    transform: translate3d(-34px, 78px, 0) rotate(286deg);
+    background: rgba(255, 0, 30, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(26) {
+    transform: translate3d(-4px, 33px, 0) rotate(46deg);
+    background: rgba(255, 0, 191, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(27) {
+    transform: translate3d(17px, -54px, 0) rotate(153deg);
+    background: rgba(234, 0, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(28) {
+    transform: translate3d(89px, 93px, 0) rotate(146deg);
+    background: rgba(34, 255, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(29) {
+    transform: translate3d(-88px, 3px, 0) rotate(2deg);
+    background: rgba(0, 85, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(30) {
+    transform: translate3d(-41px, 34px, 0) rotate(81deg);
+    background: rgba(255, 183, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(31) {
+    transform: translate3d(72px, 55px, 0) rotate(264deg);
+    background: rgba(21, 255, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(32) {
+    transform: translate3d(-55px, 71px, 0) rotate(47deg);
+    background: rgba(255, 140, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(33) {
+    transform: translate3d(-33px, 67px, 0) rotate(66deg);
+    background: rgba(153, 255, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(34) {
+    transform: translate3d(-86px, 53px, 0) rotate(105deg);
+    background: rgba(255, 0, 106, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(35) {
+    transform: translate3d(42px, -66px, 0) rotate(202deg);
+    background: rgba(0, 8, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(36) {
+    transform: translate3d(-20px, -63px, 0) rotate(286deg);
+    background: rgba(255, 251, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(37) {
+    transform: translate3d(72px, -24px, 0) rotate(12deg);
+    background: rgba(255, 0, 43, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(38) {
+    transform: translate3d(89px, -73px, 0) rotate(216deg);
+    background: rgba(255, 21, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(39) {
+    transform: translate3d(-73px, -10px, 0) rotate(4deg);
+    background: rgba(0, 149, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(40) {
+    transform: translate3d(-3px, 3px, 0) rotate(162deg);
+    background: rgba(0, 255, 115, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(41) {
+    transform: translate3d(37px, -33px, 0) rotate(215deg);
+    background: rgba(0, 64, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(42) {
+    transform: translate3d(-54px, -54px, 0) rotate(315deg);
+    background: rgba(255, 17, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(43) {
+    transform: translate3d(54px, 44px, 0) rotate(123deg);
+    background: rgba(230, 0, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(44) {
+    transform: translate3d(-42px, -56px, 0) rotate(246deg);
+    background: rgba(0, 183, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(45) {
+    transform: translate3d(15px, 18px, 0) rotate(347deg);
+    background: rgba(0, 60, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(46) {
+    transform: translate3d(4px, 64px, 0) rotate(346deg);
+    background: rgba(162, 255, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(47) {
+    transform: translate3d(45px, -41px, 0) rotate(353deg);
+    background: rgba(26, 255, 0, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(48) {
+    transform: translate3d(36px, 52px, 0) rotate(159deg);
+    background: rgba(0, 255, 204, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(49) {
+    transform: translate3d(12px, 79px, 0) rotate(147deg);
+    background: rgba(0, 255, 89, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+.hoverme:hover i:nth-of-type(50) {
+    transform: translate3d(77px, 27px, 0) rotate(66deg);
+    background: rgba(0, 221, 255, 1);
+    animation: bang 700ms ease-out forwards;
+    opacity: 0;
+}
+@keyframes bang {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+   }
+}
