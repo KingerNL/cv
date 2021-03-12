@@ -52,6 +52,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    object-fit: contain;
   }
   
   .menu-nav{
