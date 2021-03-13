@@ -35,11 +35,11 @@ body {
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 4s ease-out;
    }
 
    .content_container h1:hover {
     background-position: -100%;
+    transition: 4s ease-out;
    }
 
 
