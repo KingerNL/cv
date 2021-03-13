@@ -9,7 +9,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 6rem;
+    font-size: 5.2rem;
     line-height: 5.7rem;
     position: relative;
   }
@@ -30,6 +30,19 @@ body {
      padding-left: 100px;
    }
    
+   .content_container h1 {
+    background: linear-gradient(to right, white 50%, #69C9D0 50%, #EE1D52);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 4s ease-out;
+   }
+
+   .content_container h1:hover {
+    background-position: -100%;
+   }
+
+
   .menu {
     height: 100%;
     width: 150px;
@@ -52,16 +65,23 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    object-fit: contain;
   }
   
+  .photo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
   .menu-nav{
     padding-top:100px;
     width: 100%;
   }
   
   .menu-social{
-  
+    margin-top: 10vh;
+    height: 50%;
+    width: 100%;
   }
   
   .menu h1 {
@@ -93,10 +113,12 @@ body {
   .menu h1:hover {
     transition: all 0.25;
     color: #EE1D52;
+    transition: 0.5s;
   }
   
   .menu h2:hover {
     color: #EE1D52;
+    transition: 0.5s;
   }
   
   
