@@ -25,9 +25,17 @@ body {
      left: 0;
    }
   
+   .text_container{
+     width: 500px;
+     display: flex;
+     flex-direction: column;
+   }
+
    .content_container{
      padding-top: 30vh;
      padding-left: 100px;
+     display: flex;
+     flex-direction: row;
    }
    
    .content_container h1 {
