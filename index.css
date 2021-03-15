@@ -13,7 +13,13 @@ body {
     line-height: 5.7rem;
     position: relative;
   }
-  
+   .p2{
+    font-family: 'Open Sans';
+    color: #a5a5a5;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+   }
+
    .home_container{
      width: 100%;
      padding-left: 160px;
@@ -76,9 +82,10 @@ body {
   }
   
   .photo > img {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     object-fit: contain;
+    margin-top: 10px;
   }
 
   .menu-nav{
