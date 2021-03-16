@@ -1,7 +1,7 @@
 body {
     background-color: #1d1d1d;
-    font-family: "Open Sans",sans-serif;
     color: #fff;
+    font-family: 'La Belle Aurore', cursive;
   }
   
   h1 {
@@ -22,7 +22,7 @@ body {
 
    .home_container{
      width: 100%;
-     padding-left: 160px;
+     padding-left: 150px;
      height: 100vh;
      display: flex;
      flex-direction: column;
@@ -32,19 +32,43 @@ body {
    }
   
    .text_container{
-     padding-top: 25vh;
      width: 500px;
-     display: flex;
-     flex-direction: column;
+     padding-left: 10vh;
    }
 
+   .animation_container{
+    width: 100%;
+    height: auto;
+    padding-left: 10vh;
+   }
    .content_container{
-     padding-top: 5vh;
-     padding-left: 100px;
      display: flex;
      flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     height: 100%;
+     width: 80%;
    }
    
+   @media (max-width: 800px){
+     .content_container{
+       flex-direction: column;
+       align-items: center;
+     }
+     .text_container{
+       text-align: center;
+       padding-top: 10vh;
+       padding-left: 0vh;
+     }
+     .content_container{
+       height: 100%;
+     }
+     .animation_container{
+       padding-top: 10vh;
+       padding-left: 0vh;
+     }
+   }
+
    .content_container h1 {
     background: linear-gradient(to right, white 50%, #69C9D0 50%, #EE1D52);
     background-size: 200%;
@@ -136,9 +160,42 @@ body {
     color: #EE1D52;
     transition: 0.5s;
   }
-  
-  
-  @media screen and (max-height: 450px) {
-    .menu {padding-top: 15px;}
-    .menu a {font-size: 18px;}
-  }
+  /*
+    .tags {
+    color: #515152;
+    position: absolute;
+    bottom: 0;
+    left: 4rem;
+    font-style: italic;
+    font-size: 1.8rem;
+    font-family: 'La Belle Aurore',cursive;
+}
+
+.top-tags {
+  bottom: auto;
+  top: 2rem;
+}
+
+.top-tags:after {
+  content: '<body>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-left: 2rem;
+}
+
+.bottom-tags {
+  bottom: 2rem;
+  top: auto;
+}
+
+.bottom-tags:before {
+  content: '</body>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-left: 2rem;
+}
+*/
