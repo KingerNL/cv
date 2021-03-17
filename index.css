@@ -152,6 +152,10 @@ body {
     width: 100%;
   }
   
+  a {
+    text-decoration: none;
+  }
+  
   .menu h1 {
     font-family: "Open Sans",sans-serif;
     text-align: center;
