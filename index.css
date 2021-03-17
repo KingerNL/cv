@@ -135,7 +135,7 @@ body {
     flex-direction: column;
   }
   
-  .photo > img {
+  .photo img {
     height: 80%;
     width: 80%;
     object-fit: contain;
@@ -155,7 +155,7 @@ body {
   a {
     text-decoration: none;
   }
-  
+
   .menu h1 {
     font-family: "Open Sans",sans-serif;
     text-align: center;
