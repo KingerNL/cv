@@ -8,7 +8,20 @@
   <link rel="stylesheet" href="index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  </head>
-
+ <div class="loader-wrapper">    
+  <div class="loader">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <span>Loading..</span>
+      </div>
+  </div>
+  <script>
+    setTimeout(function(){$(".loader-wrapper").fadeOut("slow")  }, 500)
+   </script>
 <div class="menu">
     <div class="menu-photo">
       <div class="photo"> 
@@ -33,18 +46,5 @@
     <div class="menu-social"></div>
     </div>
 </div>
-<div class="loader-wrapper">    
-  <div class="loader">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="shadow"></div>
-          <div class="shadow"></div>
-          <div class="shadow"></div>
-          <span>Loading..</span>
-      </div>
-  </div>
-  <script>
-    setTimeout(function(){$(".loader-wrapper").fadeOut("slow")  }, 500)
-   </script>
+
   </html>
