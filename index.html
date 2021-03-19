@@ -5,8 +5,9 @@
     
     </style>
 <head>
- <link rel="stylesheet" href="index.css">
-</head>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ </head>
 
 <div class="menu">
   <div class="menu-photo">
@@ -44,4 +45,20 @@
     <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_3fadfvgq.json" background="transparent" speed="1" style="max-height: 95vh;" autoplay=""></lottie-player>
     </div>
   </div>
+  <div class="loader-wrapper">    
+    <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Loading..</span>
+        </div>
+    </div>
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
   </html>
