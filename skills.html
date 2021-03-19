@@ -32,4 +32,20 @@
     <div class="menu-social"></div>
     </div>
 </div>
+<div class="loader-wrapper">    
+  <div class="loader">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <div class="shadow"></div>
+          <span>Loading..</span>
+      </div>
+  </div>
+  <script>
+    $(window).on("load",function(){
+      $".loader-wrapper".fadeOut("slow");
+    });
+  </script>
   </html>
