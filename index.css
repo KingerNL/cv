@@ -246,7 +246,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 150px;
 }
 .loader{
   width:200px;
