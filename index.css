@@ -53,6 +53,7 @@ body {
    }
    
    @media (max-width: 1100px){
+
      .content_container{
        flex-direction: column;
        align-items: center;
@@ -75,6 +76,7 @@ body {
      h1 {
        font-size: 3.3rem;
      }
+
    }
 
    @media (max-width: 700px){
@@ -371,6 +373,11 @@ h2{
   transition: 0.5s;
 } 
 
+@media (min-width: 1100px){
+
+  }
+}
+
 h2:before {
   content: '<h2>';
   font-family: 'La Belle Aurore',cursive;
@@ -409,12 +416,11 @@ h2:after {
     bottom: -2rem;
 }
 
-
 h1:first-of-type:before {
   content: '<h>';
   font-family: 'La Belle Aurore',cursive;
   color: #515152;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: -3rem;
   left: -1rem;
   position: absolute;
@@ -423,7 +429,7 @@ h1:last-of-type:after {
   content: '</h>';
   font-family: 'La Belle Aurore',cursive;
   color: #515152;
-  font-size: 18px;
+  font-size: 25px;
   left: -1rem;
   bottom: -4rem;
   position: absolute;
@@ -468,4 +474,3 @@ h1:last-of-type:after {
   position: absolute;
   margin-left: 2.9rem;
   margin-top: -2rem;
-}
