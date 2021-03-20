@@ -100,18 +100,6 @@ body {
     }
   }
 
-   .content_container h1 {
-    background: linear-gradient(to right, white 50%, #69C9D0 50%, #EE1D52);
-    background-size: 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   }
-
-   .content_container h1:hover {
-    background-position: -100%;
-    transition: 4s ease-out;
-   }
-
 
   .menu {
     height: 100%;
@@ -423,7 +411,7 @@ h2:after {
 
 
 h1:first-of-type:before {
-  content: '<h2>';
+  content: '<h>';
   font-family: 'La Belle Aurore',cursive;
   color: #515152;
   font-size: 18px;
@@ -432,7 +420,7 @@ h1:first-of-type:before {
   position: absolute;
 }
 h1:last-of-type:after {
-  content: '</h2>';
+  content: '</h>';
   font-family: 'La Belle Aurore',cursive;
   color: #515152;
   font-size: 18px;
