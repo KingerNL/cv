@@ -385,6 +385,18 @@ h2{
     h1:last-of-type:after {
       display: none;
     }
+    h2:before{
+      display: none;
+    }
+    h2::after{
+      display: none;
+    }
+    p::before{
+      display: none;
+    }
+    p::after{
+      display: none;
+    }
   }
 
 h2:before {
@@ -483,3 +495,4 @@ h1:last-of-type:after {
   position: absolute;
   margin-left: 2.9rem;
   margin-top: -2rem;
+}
