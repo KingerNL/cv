@@ -195,7 +195,7 @@ body {
     color: #EE1D52;
     transition: 0.5s;
   }
-  /*
+  
     .tags {
     color: #515152;
     position: absolute;
@@ -233,7 +233,7 @@ body {
   position: absolute;
   margin-left: 2rem;
 }
-*/
+
 
 .loader-wrapper{
   top: 0;
@@ -364,24 +364,7 @@ h2{
   font-size: 5rem;
   line-height: 6.7rem;
 }
-h2:before {
-  content: '<h2>';
-  font-family: 'La Belle Aurore',cursive;
-  color: #515152;
-  font-size: 18px;
-  position: absolute;
-  margin-top: -4rem;
-  left: -1rem;
-}
-h2:after {
-  content: '<h2/>';
-  font-family: 'La Belle Aurore',cursive;
-  color: #515152;
-  font-size: 18px;
-  position: absolute;
-  left: -1rem;
-  bottom: -5rem;
-}
+
 .about_text p{
   position: relative;
   margin: 1.5rem 0;
@@ -399,3 +382,61 @@ h2:after {
   color: #08fdd870;
   transition: 0.5s;
 } 
+
+h2:before {
+  content: '<h2>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -3rem;
+  left: -1rem;
+}
+h2:after {
+  content: '</h2>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  left: -1rem;
+  bottom: -4rem;
+}
+
+.about_text p:first-of-type:before {
+  content: '<p>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: -2rem;
+}
+.about_text p:last-of-type:after {
+    content: '<p/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    left: -2rem;
+    bottom: -2rem;
+}
+
+h1:before {
+  content: '<h1>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: -5rem;
+  left: -1.5rem;
+}
+
+h1:after {
+  content: '<h1/>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
+  margin-top: 3.8rem;
+  margin-left: 2rem;
+}
