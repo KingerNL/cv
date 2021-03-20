@@ -421,22 +421,59 @@ h2:after {
     bottom: -2rem;
 }
 
-h1:before {
-  content: '<h1>';
+h1:first-of-type:before {
+  content: '<h2>';
   font-family: 'La Belle Aurore',cursive;
   color: #515152;
-  font-size: 1.8rem;
-  position: absolute;
-  margin-top: -5rem;
-  left: -1.5rem;
+  font-size: 18px;
+  margin-top: -3rem;
+  left: -1rem;
+  display: block;
+}
+h1:last-of-type:after {
+  content: '</h2>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 18px;
+  left: -1rem;
+  bottom: -4rem;
 }
 
-h1:after {
-  content: '<h1/>';
+.top-tags {
+  bottom: auto;
+  top: 2rem;
+}
+
+.top-tags:after {
+  content: '<body>';
   font-family: 'La Belle Aurore',cursive;
   color: #515152;
   font-size: 1.8rem;
   position: absolute;
-  margin-top: 3.8rem;
+  margin-left: 2rem;
+}
+
+.tags {
+  padding-left: 150px;
+  color: #515152;
+  position: absolute;
+  bottom: 0;
+  left: 4rem;
+  font-style: italic;
+  font-size: 1.8rem;
+  font-family: 'La Belle Aurore',cursive;
+}
+
+.bottom-tags {
+  bottom: 2rem;
+  top: auto;
+}
+
+.bottom-tags:before {
+  content: '</body>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 1.8rem;
+  position: absolute;
   margin-left: 2rem;
 }
