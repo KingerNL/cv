@@ -19,7 +19,6 @@ body {
     font-family: 'Open Sans';
     color: #a5a5a5;
     font-size: 0.9rem;
-    margin-top: 1rem;
    }
 
    .home_container{
@@ -110,15 +109,16 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #181818;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
   
   .menu-photo {
     width: 100%;
-    background:#000;
+    background: rgb(14, 14, 14);
     align-items: center;
     height: 200px;
     padding: 10px 0;
@@ -134,15 +134,20 @@ body {
   }
 
   .menu-nav{
-    padding-top:100px;
     width: 100%;
   }
   
   .menu-social{
-    margin-top: 10vh;
-    height: 50%;
-    width: 100%;
+    color: #909096;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 15rem;
   }
+
   
   a {
     text-decoration: none;
@@ -186,45 +191,6 @@ body {
     transition: 0.5s;
   }
   
-    .tags {
-    color: #515152;
-    position: absolute;
-    bottom: 0;
-    left: 4rem;
-    font-style: italic;
-    font-size: 1.8rem;
-    font-family: 'La Belle Aurore',cursive;
-}
-
-.top-tags {
-  bottom: auto;
-  top: 2rem;
-}
-
-.top-tags:after {
-  content: '<body>';
-  font-family: 'La Belle Aurore',cursive;
-  color: #515152;
-  font-size: 1.8rem;
-  position: absolute;
-  margin-left: 2rem;
-}
-
-.bottom-tags {
-  bottom: 2rem;
-  top: auto;
-}
-
-.bottom-tags:before {
-  content: '</body>';
-  font-family: 'La Belle Aurore',cursive;
-  color: #515152;
-  font-size: 1.8rem;
-  position: absolute;
-  margin-left: 2rem;
-}
-
-
 .loader-wrapper{
   top: 0;
   left: 0;
@@ -495,4 +461,28 @@ h1:last-of-type:after {
   position: absolute;
   margin-left: 2.9rem;
   margin-top: -2rem;
+}
+
+.menu-social li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+li{
+  width: 20%;
+}
+
+li:first-of-type {
+  margin-left: 10%;
+}
+
+li:last-of-type{
+  margin-right: 10%;
+}
+
+.menu-social img{
+  height: auto;
+  width: 50%;
+  object-fit: contain;
 }
