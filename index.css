@@ -563,4 +563,25 @@ li:last-of-type{
 .skills_text h2 {
   width: 500px;
   line-height: 1;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+.skills_text h2:before {
+  content: '<h2>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -1rem;
+  left: -1rem;
+}
+.skills_text h2:after {
+  content: '</h2>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  left: -1rem;
+  bottom: 0rem;
 }
