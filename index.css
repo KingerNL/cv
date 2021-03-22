@@ -486,3 +486,9 @@ li:last-of-type{
   width: 53%;
   object-fit: contain;
 }
+
+.menu-social a:hover{
+  filter:  brightness(0) saturate(0%)   brightness(101%) contrast(98%) invert(74%) sepia(89%) saturate(460%) hue-rotate(104deg);
+  transition: 0.5s;
+  -webkit-transition: 1s ease-in-out;
+}
