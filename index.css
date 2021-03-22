@@ -492,3 +492,25 @@ li:last-of-type{
   transition: 0.5s;
   -webkit-transition: 1s ease-in-out;
 }
+
+.skills_container{
+  width: 100%;
+  padding-left: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ .contact_container{
+  width: 100%;
+  padding-left: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+ }
