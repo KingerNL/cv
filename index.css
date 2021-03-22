@@ -502,6 +502,7 @@ li:last-of-type{
   position: fixed;
   top: 0;
   left: 0;
+  justify-content: center;
 }
 
  .contact_container{
@@ -514,3 +515,52 @@ li:last-of-type{
   top: 0;
   left: 0;
  }
+
+ .skills_text{
+  width: 40%;
+  height: auto;
+  margin-left: 8vh;
+
+}
+
+.skills_text p{
+  position: relative;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+}
+
+.skills_text .p2{
+  font-family: "Open Sans",sans-serif;
+  color: #08fdd8;
+  font-size: 1.2rem;
+  -webkit-transition: 1s;
+}
+
+.skills_text .p2:hover{
+  color: #08fdd870;
+  transition: 0.5s;
+} 
+
+.skills_text p:first-of-type:before {
+  content: '<p>';
+  font-family: 'La Belle Aurore',cursive;
+  color: #515152;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: -2rem;
+}
+.skills_text p:last-of-type:after {
+    content: '<p/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    left: -2rem;
+    bottom: -2rem;
+}
+
+.skills_text h2 {
+  width: 500px;
+  line-height: 1;
+}
