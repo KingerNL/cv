@@ -620,6 +620,10 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
     margin-left: -8vh;
   }
 
+  .skills_text h2{
+    margin-top: 10vh;
+  }
+
   .skills-details{
     margin-left: -8vh;
     width: 60%;
