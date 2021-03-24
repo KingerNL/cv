@@ -87,7 +87,7 @@ body {
     width: 100%;
   }
   
-  .menu-social{
+  .menu-icons{
     color: #909096;
     margin: 0;
     padding: 0;
@@ -391,7 +391,7 @@ h1:last-of-type:after {
   margin-top: -2rem;
 }
 
-.menu-social li {
+.menu-icons li {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -409,13 +409,13 @@ li:last-of-type{
   margin-right: 10%;
 }
 
-.menu-social img{
+.menu-icons img{
   height: auto;
   width: 53%;
   object-fit: contain;
 }
 
-.menu-social a:hover{
+.menu-icons a:hover{
   filter:  brightness(0) saturate(0%)   brightness(101%) contrast(98%) invert(74%) sepia(89%) saturate(460%) hue-rotate(104deg);
   transition: 0.5s;
   -webkit-transition: 1s ease-in-out;
