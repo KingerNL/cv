@@ -560,7 +560,7 @@ body {
   font-family: "Open Sans",sans-serif;
   color: #fff;
   padding-left: 13rem;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
