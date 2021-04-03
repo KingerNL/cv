@@ -749,6 +749,9 @@ background:#08fdd8;
 color: #1d1d1d;
 }
 
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
 
 @font-face {
 font-family: "font-file-82132";
