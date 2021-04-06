@@ -1,4 +1,4 @@
 function pageSwitch(page){
     $(".loader-wrapper").fadeIn("slow")
-    setTimeout(()=>{window.location = page;},500)
+    setTimeout(()=>{window.location = page;},800)
   }
