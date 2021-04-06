@@ -479,6 +479,10 @@ li:last-of-type{
   transition: 0.5s;
 } 
 
+.menu-nav span:hover{
+  cursor: pointer;
+}
+
 .skills_text p:first-of-type:before {
   content: '<p>';
   font-family: 'La Belle Aurore',cursive;
