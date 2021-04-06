@@ -479,7 +479,7 @@ li:last-of-type{
   transition: 0.5s;
 } 
 
-.menu-nav span:hover{
+.menu-nav span:hover, .photo:hover{
   cursor: pointer;
 }
 
