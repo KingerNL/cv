@@ -4,9 +4,7 @@ if (location.hostname === "localhost" || location.hostname === "127.0.0.1")
 
 function pageSwitch(page){
     $(".loader-wrapper").fadeIn("slow")
-    setTimeout(()=>{
-        window.location = page + isLocalhost
-        },600)
+    setTimeout(()=>{window.location = page + isLocalhost}, 700)
   }
 
   setTimeout(function(){$(".loader-wrapper").fadeOut("slow")  }, 500)
