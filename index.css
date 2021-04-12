@@ -521,9 +521,8 @@ body {
 .chart footer div.w70 {
   width: 0;
   height: 100%;
-background: rgb(255, 34, 83); 
+  background: rgb(255, 34, 83); 
   animation: w70 1s ease forwards;
-  transition-delay: 1400ms;
 }
 
 @keyframes w70 {
@@ -536,7 +535,6 @@ background: rgb(255, 34, 83);
   height: 100%;
   background-color: #08fdd8;
   animation: w90 1s ease forwards;
-  transition-delay: 1000ms;
 }
 
 @keyframes w90 {
@@ -549,7 +547,6 @@ background: rgb(255, 34, 83);
   height: 100%;
   background-color: #08fdd8;
   animation: w50 1s ease forwards;
-  transition-delay: 1600ms;
 }
 
 @keyframes w50 {
@@ -560,9 +557,8 @@ background: rgb(255, 34, 83);
 .chart footer div.w60 {
   width: 0;
   height: 100%;
-background: rgb(210, 108, 213);
+  background: rgb(210, 108, 213);
   animation: w60 1s ease forwards;
-  transition-delay: 1200ms;
 }
 
 @keyframes w60 {
