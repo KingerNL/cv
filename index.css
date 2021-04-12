@@ -483,23 +483,91 @@ li:last-of-type{
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
 .chart {
   margin-bottom: 2rem;
 }
 
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background: #1d1d1d;
+  display: block;
+  min-width: 320px;
+  font-family: "Open Sans",sans-serif;
+  color: #fff;
+  padding-left: 13rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
 .chart footer {
   background-color: #373737;
   height: 2px;
 }
 
-.chart footer div {
+.page-skills .text-zone+div {
+  padding-right: 5rem;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.chart footer div.w70 {
+  width: 0;
+  height: 100%;
+background: rgb(255, 34, 83); 
+  animation: w70 1s ease forwards;
+  transition-delay: 1400ms;
+}
+
+@keyframes w70 {
+  from { width: 0%; }
+  to { width: 70%; }
+}
+
+.chart footer div.w90 {
   width: 0;
   height: 100%;
   background-color: #08fdd8;
-  -webkit-transition: width 1.3s ease-out;
-  -o-transition: width 1.3s ease-out;
-  transition: width 1.3s ease-out;
+  animation: w90 1s ease forwards;
+  transition-delay: 1000ms;
+}
+
+@keyframes w90 {
+  from { width: 0%; }
+  to { width: 90%; }
+}
+
+.chart footer div.w50 {
+  width: 0;
+  height: 100%;
+  background-color: #08fdd8;
+  animation: w50 1s ease forwards;
+  transition-delay: 1600ms;
+}
+
+@keyframes w50 {
+  from { width: 0%; }
+  to { width: 50%; }
+}
+
+.chart footer div.w60 {
+  width: 0;
+  height: 100%;
+background: rgb(210, 108, 213);
+  animation: w60 1s ease forwards;
+  transition-delay: 1200ms;
+}
+
+@keyframes w60 {
+  from { width: 0%; }
+  to { width: 60%; }
 }
 
 .skills_details{
