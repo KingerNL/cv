@@ -483,11 +483,9 @@ li:last-of-type{
   -ms-flex-direction: column;
   flex-direction: column;
 }
-
 .chart {
   margin-bottom: 2rem;
 }
-
 body {
   font-size: 1.6rem;
   line-height: 1.5;
@@ -505,7 +503,6 @@ body {
   background-color: #373737;
   height: 2px;
 }
-
 .page-skills .text-zone+div {
   padding-right: 5rem;
   width: 50%;
@@ -518,28 +515,40 @@ body {
   flex-direction: column;
 }
 
-.chart footer div.w70 {
-  width: 0;
-  height: 100%;
-  background: rgb(255, 34, 83); 
-  animation: w70 1s ease forwards;
-}
-
-@keyframes w70 {
-  from { width: 0%; }
-  to { width: 70%; }
-}
-
 .chart footer div.w90 {
   width: 0;
   height: 100%;
   background-color: #08fdd8;
   animation: w90 1s ease forwards;
+animation-delay: .6s;
 }
-
 @keyframes w90 {
   from { width: 0%; }
   to { width: 90%; }
+}
+
+.chart footer div.w60 {
+  width: 0;
+  height: 100%;
+background: rgb(210, 108, 213);
+  animation: w60 1s ease forwards;
+animation-delay: .7s;
+}
+@keyframes w60 {
+  from { width: 0%; }
+  to { width: 60%; }
+}
+
+.chart footer div.w70 {
+  width: 0;
+  height: 100%;
+background: rgb(255, 34, 83); 
+  animation: w70 1s ease forwards;
+animation-delay: .8s;
+}
+@keyframes w70 {
+  from { width: 0%; }
+  to { width: 70%; }
 }
 
 .chart footer div.w50 {
@@ -547,23 +556,11 @@ body {
   height: 100%;
   background-color: #08fdd8;
   animation: w50 1s ease forwards;
+animation-delay: .9s;
 }
-
 @keyframes w50 {
   from { width: 0%; }
   to { width: 50%; }
-}
-
-.chart footer div.w60 {
-  width: 0;
-  height: 100%;
-  background: rgb(210, 108, 213);
-  animation: w60 1s ease forwards;
-}
-
-@keyframes w60 {
-  from { width: 0%; }
-  to { width: 60%; }
 }
 
 .skills_details{
@@ -697,16 +694,16 @@ color: #fff;
 font-size: 1.1rem;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
 color: #bebebe;
-opacity: 1; /* Firefox */
+opacity: 1; 
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder { 
 color: #bebebe;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder { 
 color: #bebebe;
 }
 
