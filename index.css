@@ -121,6 +121,7 @@ body {
     border-top: 1px solid #282828;
     margin: 0;
     font-weight: 1;
+    transition: 0.5s;
   }
   
   .menu-nav h5 {
@@ -135,6 +136,7 @@ body {
     border-bottom: 1px solid #282828;
     margin: 0;
     font-weight: 1;
+    transition: 0.5s;
   }
   
   
@@ -373,6 +375,29 @@ li:last-of-type{
   position: fixed;
   top: 0;
   left: 0;
+  align-items: stretch;
+ }
+
+ .blog_widget_container{
+    background-color: #242526;
+    width: 250px;
+    height: 75%;
+    margin: 5% 5% 5% 5%;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+ }
+
+ .widget_week{
+   width: 80%;
+   height: 70px;
+   background-color: #323435;
+   margin: 0% 10% 0% 8%;
+   border-radius: 4px;
  }
 
  .skills_text{
@@ -622,14 +647,14 @@ animation-delay: .9s;
 .blog_list_container{
   display: flex;
   height: 90%;
-  margin: 5% 40% 5% 5%;
+  margin: 5% 3% 5% 5%;
   font-family: font-file-82132;
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   flex-direction: column;
   justify-content: flex-start;
   align-content: stretch;
-  width: 100%;
+  width: 50%;
 }
 
 .blog_top{
@@ -643,7 +668,6 @@ animation-delay: .9s;
 }
 
 .blog_top p {
-  margin: 5%, 0;
   font-size: 3rem;
   color: #08fdd8;
 }
@@ -653,7 +677,15 @@ animation-delay: .9s;
   margin-top: 2%;
   background-color: #242526;
   border-radius: 10px;
-  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 10%), 0 5px 5px 0 rgb(0 0 0 / 10%) !important;
+  transition: 0.5s;
+  color: white;
+}
+
+.blog_list:hover{
+  background-color: #323233;
+  transition: 0.5s;
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0), 0 0px 0px 0 rgb(0 0 0 / 19%) !important;
 }
 
 .blog_list_title{
@@ -666,6 +698,7 @@ animation-delay: .9s;
   margin: 3% 3% 2% 3%;
   font-size: 1.5rem;
   line-height: 1.5rem;
+  font-family: Georgia, serif
 }
 
 .blog_list_disc{
@@ -674,8 +707,11 @@ animation-delay: .9s;
 
 .blog_list_disc p{
   margin: 0% 3% 0% 3%;
-  color: #D3D3D3;
-  font-size: 1.1rem;
+  color: #555757;
+  font-size: 0.8rem;
+  font-family: Verdana;
+  display: flex;
+  text-align: left;
 }
 
 .contact_forum {
@@ -725,27 +761,12 @@ color:#EE1D52;
 font-size: 1.5rem;
 }
 
-button{
-float: right;
-padding: 1rem 2rem;
-margin: 2rem 0 0;
-font-family: font-file-82132;;
-border: 1px solid #08fdd8;
-background: 0;
-color: #08fdd8;
-cursor: pointer;
-transition: all .3s;
-letter-spacing: 5px;
-font-size: 1.2rem;
-}
-
-button:hover{
-background:#08fdd8;
-color: #1d1d1d;
-}
-
 .animate__animated.animate__fadeIn {
   --animate-duration: 2s;
+}
+button {
+  cursor: pointer;
+  border-color: transparent;
 }
 
 @font-face {
