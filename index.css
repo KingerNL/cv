@@ -819,6 +819,7 @@ animation-delay: .9s;
   background-color: #323233;
   transition: 0.5s;
   box-shadow: 0px 0px 0px 0px rgb(0 0 0), 0 0px 0px 0 rgb(0 0 0 / 19%) !important;
+  color: #EE1D52;
 }
 
 .blog_list_title{
