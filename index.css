@@ -790,6 +790,19 @@ animation-delay: .9s;
   width: 50%;
 }
 
+.blog_inside_con{
+  display: flex;
+  height: 90%;
+  margin: 5% 3% 5% 5%;
+  font-family: font-file-82132;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+  width: 80%;
+}
+
 .blog_top{
   height: 10%;
   background-color: #242526;
@@ -801,7 +814,7 @@ animation-delay: .9s;
 }
 
 .blog_top p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #08fdd8;
 }
 
@@ -815,10 +828,21 @@ animation-delay: .9s;
   color: white;
 }
 
+.blog_text{
+  height: 80%;
+  margin-top: 2rem;
+  background-color: #242526;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(5 5 5 / 10%), 5px 5px 5px 5px rgb(5 5 5 / 10%) !important;
+  transition: 0.5s;
+  color: white;
+  width: 96%;
+}
+
 .blog_list:hover{
   background-color: #323233;
   transition: 0.5s;
-  box-shadow: 0px 0px 0px 0px rgb(0 0 0), 0 0px 0px 0 rgb(0 0 0 / 19%) !important;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 10%), 0 5px 5px 0 rgb(0 0 0 / 10%) !important;
   color: #EE1D52;
 }
 
@@ -840,10 +864,47 @@ animation-delay: .9s;
   height: 55%;
 }
 
+.blog_top_con {
+  height: 10%;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+}
+
+.blog_top_con .blog_top{
+  height: 100%;
+  background-color: #242526;
+  width: 70%
+}
+
+.blog_top_back {
+  height: 100%;
+  background-color: #242526;
+  width: 15%;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  transition: 0.5s;
+}
+
+.blog_top_back:hover{
+  background-color: #E5443F;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 10%), 0 5px 5px 0 rgb(0 0 0 / 10%) !important;
+  color: #1d1d1d;
+}
+
 .blog_list_disc p{
   margin: 0% 3% 0% 3%;
   color: #555757;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: Verdana;
   display: flex;
   text-align: left;
