@@ -979,6 +979,13 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
   }
 }
 
+@media (max-width: 1425px){
+  .blog_top p{
+    font-size: 1.9rem;
+    margin: 20px;
+  }
+}
+
 @media (max-width: 1100px){
 
   .skills_text p{
@@ -986,6 +993,11 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
     margin: 0.5rem 0;
     font-size: 1rem;
     line-height: 1rem;
+  }
+
+  .blog_top p{
+    font-size: 1.7rem;
+    margin: 20px;
   }
 
   .blog_widget_container{
