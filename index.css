@@ -23,7 +23,7 @@ body {
     position: relative;
   }
    .p2{
-    font-family: 'Open Sans';
+    font-family: inherit;
     color: #a5a5a5;
     font-size: 0.9rem;
    }
@@ -61,7 +61,7 @@ body {
 
   .menu {
     height: 100%;
-    width: 150px;
+    width: 140px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -103,7 +103,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 15rem;
-    align-items: flex-start;
+    align-items: center;
   }
 
   #Letter1{
@@ -182,6 +182,17 @@ body {
     z-index: -1;
   }
   
+  .circle3 {
+    position: absolute;
+    left: 550px;
+    top: 50px;
+    height: 150px;
+    width: 150px;
+    background-color: #FBBC04;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
   .triangle1{
     position: absolute;
     left: 255px;
@@ -236,7 +247,7 @@ body {
     text-align: center;
     width: 100%;
     display: block;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #909096;
     line-height: 5rem;
     border-top: 1px solid #282828;
@@ -250,7 +261,7 @@ body {
     text-align: center;
     width: 100%;
     display: block;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #909096;
     line-height: 5rem;
     border-top: 1px solid #282828;
@@ -273,7 +284,7 @@ body {
   
 .loader-wrapper{
   top: 0;
-  left: 150px;
+  left: 140px;
   position: absolute;
   width:100%;
   height:100%;
@@ -819,7 +830,7 @@ animation-delay: .9s;
 }
 
 .blog_list{
-  height: 15%;
+  height: 8.3rem;
   margin-top: 2rem;
   background-color: #242526;
   border-radius: 10px;
