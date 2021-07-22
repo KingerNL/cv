@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans",sans-serif;
   color: #fff;
   padding-left: 13rem;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
@@ -160,6 +160,17 @@ body {
       transform: rotate(120deg);
   }
 
+  .vierkant1 {
+    position: absolute;
+    left: 600px;
+    top: 1000px;
+    height: 180px;
+    width: 180px;
+    background-color: #E5443F;
+    z-index: -1;
+    transform: rotate(120deg);
+}
+
   .circle1 {
     position: absolute;
     left: 1250px;
@@ -193,10 +204,32 @@ body {
     z-index: -1;
   }
 
+  .circle4 {
+    position: absolute;
+    left: 750px;
+    top: 1600px;
+    height: 250px;
+    width: 250px;
+    background-color: #34A853;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .circle5 {
+    position: absolute;
+    left: 250px;
+    top: 1100px;
+    height: 100px;
+    width: 100px;
+    background-color: #34A853;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
   .triangle1{
     position: absolute;
     left: 255px;
-    top: 800px;
+    top: 900px;
 	  width: 0;
 	  height: 0;
 	  border-left: 60px solid transparent;
@@ -219,6 +252,19 @@ body {
     transform: rotate(220deg);
   }
 
+  .driehoek1 {
+    position: absolute;
+    left: 100px;
+    top: 1850px;
+	  width: 0;
+	  height: 0;
+	  border-left: 250px solid transparent;
+	  border-right: 250px solid transparent;
+	  border-bottom: 240px solid #4285F4;
+    z-index: -1;
+    transform: rotate(210deg);
+  }
+
   .rectangle {
     position: absolute;
     left: 250px;
@@ -228,6 +274,17 @@ body {
     background-color: #4285F4;
     transform: rotate(290deg);
     z-index: -1;
+}
+
+.rectangle1 {
+  position: absolute;
+  left: 250px;
+  top: 1300px;
+  height: 300px;
+  width: 150px;
+  background-color: #FBBC04;
+  transform: rotate(110deg);
+  z-index: -1;
 }
 
 .rechthoek {
@@ -656,17 +713,6 @@ li:last-of-type{
 .chart {
   margin-bottom: 2rem;
 }
-body {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  background: #1d1d1d;
-  display: block;
-  min-width: 320px;
-  font-family: "Open Sans",sans-serif;
-  color: #fff;
-  padding-left: 13rem;
-  overflow-x: hidden;
-}
 
 .chart footer {
   background-color: #373737;
@@ -987,6 +1033,7 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
 @media (min-width: 1600px){
   .blog_list_disc p{
     font-size: 1rem;
+    height: fit-content;
   }
 }
 
@@ -998,6 +1045,21 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
 }
 
 @media (max-width: 1100px){
+
+  .menu {
+    display: flex;
+    width: 100px;
+  }
+
+  .blog_list{
+    height: inherit;
+  }
+
+  .blog_container{
+    padding-left: 0;
+    justify-content: center;
+  }
+  
 
   .skills_text p{
     position: relative;
@@ -1017,7 +1079,7 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
 
   .blog_list_container{
     justify-content: center;
-    width: 70%;
+    width: 100%;
   }
 
   .blog_list_container h2{
@@ -1033,6 +1095,9 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
     margin-left: -8vh;
   }
 
+  .skills_container{
+    padding-left: 0;
+  }
 
   .skills-details{
     margin-left: -8vh;
@@ -1086,6 +1151,7 @@ src: url(data:font/opentype;base64,d09GRk9UVE8AADtkAAwAAAAAaSAAAAAAAAAAAAAAAAAAA
 
     .home_about {
       flex-direction: column;
+      padding-left: 70px;
     }
     .about_text {
       margin-left: 0vh;
