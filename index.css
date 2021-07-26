@@ -578,6 +578,7 @@ font-size: 1.5rem;
   box-shadow: 5px 5px 5px 5px rgb(5 5 5 / 10%), 5px 5px 5px 5px rgb(5 5 5 / 10%) !important;
   transition: 0.5s;
   color: white;
+  margin-bottom: 30px;
 }
 
 .blog_list:hover{
