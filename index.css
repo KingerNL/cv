@@ -536,7 +536,7 @@ font-size: 1.5rem;
 
 .blog_inside_con{
   display: flex;
-  margin: 5% 0% 0% 5%;
+  margin: 5% 2% 0% 2%;
   font-family: font-file-82132;
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
@@ -578,7 +578,6 @@ font-size: 1.5rem;
   box-shadow: 5px 5px 5px 5px rgb(5 5 5 / 10%), 5px 5px 5px 5px rgb(5 5 5 / 10%) !important;
   transition: 0.5s;
   color: white;
-  width: 96%;
 }
 
 .blog_list:hover{
@@ -624,6 +623,7 @@ font-size: 1.5rem;
   color: white;
   font-size: 2rem;
   transition: 0.5s;
+  margin: 0px;
 }
 
 .blog_top_back:hover{
@@ -1257,7 +1257,7 @@ li:last-of-type{
   }
 
   .blog_top_back p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .blog_top p{
