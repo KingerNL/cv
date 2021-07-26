@@ -248,6 +248,9 @@ body {
     align-items: center;
   }
   
+  .chart_box{
+  }
+
    .skills_text{
     width: 30%;
     margin-left: 8vh;
