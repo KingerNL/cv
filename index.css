@@ -87,7 +87,7 @@ body {
    }
 
    .animation_container{
-    width: 100%;
+    max-width: 100%;
     padding-left: 10vh;
    }
    .content_container{
@@ -487,11 +487,14 @@ font-size: 1.5rem;
   padding-left: 150px;
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   position: fixed;
   top: 0;
   left: 0;
   align-items: stretch;
   overflow-x: hidden;
+=======
+>>>>>>> cc0c3fe0c99b8620c836c5d52289272a6d425bf2
  }
 
  .blog_widget_container{
@@ -531,7 +534,7 @@ font-size: 1.5rem;
  }
  .blog_list_container{
   display: flex;
-  margin: 5% 3% 5% 5%;
+  margin: 5% 3% 5% 3%;
   font-family: font-file-82132;
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
@@ -585,6 +588,10 @@ font-size: 1.5rem;
   box-shadow: 5px 5px 5px 5px rgb(5 5 5 / 10%), 5px 5px 5px 5px rgb(5 5 5 / 10%) !important;
   transition: 0.5s;
   color: white;
+<<<<<<< HEAD
+=======
+  margin-bottom: 30px;
+>>>>>>> cc0c3fe0c99b8620c836c5d52289272a6d425bf2
 }
 
 .blog_list:hover{
@@ -630,10 +637,7 @@ font-size: 1.5rem;
   color: white;
   font-size: 2rem;
   transition: 0.5s;
-}
-
-.blog_top_back p{
-  margin: 20px;
+  margin: 0px;
 }
 
 .blog_top_back:hover{
@@ -656,6 +660,13 @@ font-size: 1.5rem;
 button {
   cursor: pointer;
   border-color: transparent;
+}
+
+.background {
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
 }
 
   /* ____________________GOOGLE-BACKGROUND____________________*/
@@ -1065,7 +1076,9 @@ li:last-of-type{
     padding-top: 25%;
     justify-content: center;
     margin-top: 0px;
-    padding-bottom: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   .skills_text p{
@@ -1085,9 +1098,14 @@ li:last-of-type{
     padding-left: 0px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     margin-top: 30%;
     justify-content: flex-start;
     height: 0;
+=======
+    top: 0;
+    left: 0;
+>>>>>>> cc0c3fe0c99b8620c836c5d52289272a6d425bf2
   }
 
   .text_container{
@@ -1195,7 +1213,7 @@ li:last-of-type{
    }
    .animation_container{
      padding-left: 0vh;
-     padding-bottom: 35%;
+     max-width: 100%;
    }
    h1 {
      font-size: 3.3rem;
@@ -1247,6 +1265,10 @@ li:last-of-type{
   }
 
   .text_container{
+<<<<<<< HEAD
+=======
+    padding-top: 35%;
+>>>>>>> cc0c3fe0c99b8620c836c5d52289272a6d425bf2
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -1254,8 +1276,12 @@ li:last-of-type{
   }
 
   .blog_top_back p{
+<<<<<<< HEAD
     font-size: 1.4rem;
     margin: 5px;
+=======
+    font-size: 1.3rem;
+>>>>>>> cc0c3fe0c99b8620c836c5d52289272a6d425bf2
   }
 
   .blog_top p{
@@ -1267,7 +1293,11 @@ li:last-of-type{
   }
 
   .animation_container{
+<<<<<<< HEAD
     padding: 0;
+=======
+    padding-left: 0vh;
+>>>>>>> cc0c3fe0c99b8620c836c5d52289272a6d425bf2
   }
   h1 {
     font-size: 5rem;
