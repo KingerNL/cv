@@ -485,10 +485,6 @@ font-size: 1.5rem;
   padding-left: 150px;
   display: flex;
   flex-direction: row;
-  position: fixed;
-  top: 0;
-  left: 0;
-  align-items: stretch;
  }
 
  .blog_widget_container{
@@ -528,7 +524,7 @@ font-size: 1.5rem;
  }
  .blog_list_container{
   display: flex;
-  margin: 5% 3% 5% 5%;
+  margin: 5% 3% 5% 3%;
   font-family: font-file-82132;
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
@@ -630,10 +626,6 @@ font-size: 1.5rem;
   transition: 0.5s;
 }
 
-.blog_top_back p{
-  margin: 20px;
-}
-
 .blog_top_back:hover{
   background-color: #E5443F;
   transition: 0.5s;
@@ -654,6 +646,12 @@ font-size: 1.5rem;
 button {
   cursor: pointer;
   border-color: transparent;
+}
+
+.background {
+position: fixed;
+top: 0;
+left: 0;
 }
 
   /* ____________________GOOGLE-BACKGROUND____________________*/
@@ -1196,6 +1194,7 @@ li:last-of-type{
    .animation_container{
      padding-left: 0vh;
      padding-bottom: 35%;
+     max-width: 100%;
    }
    h1 {
      font-size: 3.3rem;
