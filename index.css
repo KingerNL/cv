@@ -40,7 +40,7 @@ body {
     font-size: 0.9rem;
    }
    .blog_text p2{
-    color:#08fdd8;
+    color:#EE1D52;
     padding-left: 10px;
     font-size: 2rem;
   }
@@ -478,7 +478,7 @@ font-size: 1.5rem;
   .blog_text p{
     font-size: 1rem;
     font-family: "Open sans",sans-serif;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 30px;
     margin-top: 0;
   }
   
@@ -909,7 +909,7 @@ z-index: -1;
   }
   
   h1:first-of-type:before {
-    content: '<h>';
+    content: '<h1>';
     font-family: 'La Belle Aurore',cursive;
     color: #515152;
     font-size: 25px;
@@ -918,7 +918,7 @@ z-index: -1;
     position: absolute;
   }
   h1:last-of-type:after {
-    content: '</h>';
+    content: '</h1>';
     font-family: 'La Belle Aurore',cursive;
     color: #515152;
     font-size: 25px;
