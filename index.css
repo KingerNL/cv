@@ -455,7 +455,7 @@ height: 2px;
 
 @keyframes w70 {
   from { width: 0%; }
-  to { width: 70%; }
+  to { width: 75%; }
 }
 
 .chart footer div.w50 {
@@ -467,7 +467,7 @@ height: 2px;
 }
 @keyframes w50 {
   from { width: 0%; }
-  to { width: 50%; }
+  to { width: 68%; }
 }
 
 .p3::before{
