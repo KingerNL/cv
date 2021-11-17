@@ -11,6 +11,12 @@ body {
   overflow-y: auto;
 }
 
+svg {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+}
+
 /* ____________________LETTERTYPE____________________*/
   h1 {
     color: #fff;
