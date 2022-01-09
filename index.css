@@ -197,10 +197,6 @@ svg {
     align-items: center;
   }
   
-  .menu-icons a:hover{
-    filter:  brightness(0) saturate(0%)   brightness(101%) contrast(98%) invert(74%) sepia(89%) saturate(460%) hue-rotate(104deg);
-  }
-
   .menu-nav span:hover, .photo:hover{
     cursor: pointer;
   }
