@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1d16c7b.css",
+    "main.js": "/static/js/main.ebc45d55.js",
+    "static/media/wotfard-regular-webfont.ttf": "/static/media/wotfard-regular-webfont.b7585f8e119628c4dfb2.ttf",
+    "static/media/M_logo.svg": "/static/media/M_logo.2b105707aeb456a368df59153d73e251.svg",
+    "static/media/Mart_Veldkamp.pdf": "/static/media/Mart_Veldkamp.f33b311671a75e56e7f3.pdf",
+    "static/media/Github.svg": "/static/media/Github.86b1a5e08cf4c24497cc193fc116bc71.svg",
+    "index.html": "/index.html",
+    "static/media/LinkedIn.svg": "/static/media/LinkedIn.4f2c5eb36b9dd7c38a4172cf37df1655.svg",
+    "main.e1d16c7b.css.map": "/static/css/main.e1d16c7b.css.map",
+    "main.ebc45d55.js.map": "/static/js/main.ebc45d55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1d16c7b.css",
+    "static/js/main.ebc45d55.js"
+  ]
+}
